@@ -16,7 +16,7 @@ function App() {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   useEffect(() => {
-    youtubeApiData('cricket');
+    youtubeApiData('football');
   }, [])
 
   const youtubeApiData = (searchTerm) => {
